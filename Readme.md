@@ -48,7 +48,7 @@ A sample loader is included and built during compilation when typing ```make```.
 .\EntenLoader.exe <PID Sysmon>
 ```
 
-Additionally, SysmonEnte uses [indirect syscalls](https://github.com/thefLinkk/RecycledGate) to bypass possible userland hooks.
+Additionally, SysmonEnte uses [indirect syscalls](https://github.com/thefLink/RecycledGate) to bypass possible userland hooks.
 
 The open source variant tampers with process access events to Lsass and Sysmon and sets the access mask to a benign one. Additionally, the source user and the callstack is set to **Ente**. You can change these to your needs.
 
