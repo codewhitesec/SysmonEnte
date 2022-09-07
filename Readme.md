@@ -56,7 +56,7 @@ The open source variant tampers with process access events to Lsass and Sysmon a
 
 To our understanding, the ```SACL``` bypass by James Forshaw can be identified by configuring a ```SACL``` with ```PROCESS_DUP_HANDLE``` on Sysmon. ```Event 4656``` should then be emitted upon the instantiation of a handle allowing to clone other handles from Sysmon.
 
-However, configuring such a ```SACL``` using well known administration tools appears to be non trivial. A sample program to set such a ```SACL``` is included in the folder ```sacltool```.
+However, configuring such a ```SACL``` using well known administration tools appears to be non trivial. A sample program to set such a ```SACL``` is included in the folder ```SACLProtect```.
 Note that ```Object Access Auditing``` is not enabled by default.
 
 ## References
